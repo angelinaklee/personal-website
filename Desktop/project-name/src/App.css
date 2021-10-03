@@ -1,0 +1,272 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.polaroid {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border: black 2px solid;
+  padding: 20px;
+  padding-bottom: 111px;
+  background-color: white;
+}
+
+.overlayOne {
+  position: absolute;
+  top: 1395px;
+  bottom: 0;
+  left: 392px;
+  right: 0;
+  height: 390px;
+  width: 295px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d5dded;
+}
+
+.overlayTwo {
+  position: absolute;
+  top: 1395px;
+  bottom: 0;
+  left: 753px;
+  right: 0;
+  height: 390px;
+  width: 295px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d5dded;
+}
+
+.overlayThree {
+  position: absolute;
+  top: 1395px;
+  bottom: 0;
+  left: 1112px;
+  right: 0;
+  height: 390px;
+  width: 295px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d5dded;
+}
+
+.overlayFour {
+  position: absolute;
+  top: 1395px;
+  bottom: 0;
+  left: 33px;
+  right: 0;
+  height: 390px;
+  width: 295px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d5dded;
+}
+
+.containerOne:hover .overlayOne {
+  opacity: 1;
+}
+
+.containerTwo:hover .overlayTwo {
+  opacity: 1;
+}
+
+.containerThree:hover .overlayThree {
+  opacity: 1;
+}
+
+.containerFour:hover .overlayFour {
+  opacity: 1;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h1 {
+  font-family: 'Birthstone Bounce', cursive;
+  color: black;
+  font-size: 70px;
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+}
+
+body {
+  background-color: white;
+}
+
+h2 {
+  font-family: 'Birthstone Bounce', cursive;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+  left: 7%;
+  bottom: 125px;
+  position: relative;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  bottom: 90px;
+  color: black;
+  }
+
+.leaf {
+  margin: 0;
+  position: relative;
+  bottom: 90pt;
+}
+
+.leafOne {
+  position: relative;
+  float: left;
+  padding-right: 5%;
+  right: 15%;
+  bottom: 28pt;
+}
+
+.berk {
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  left: 5%;
+}
+
+.leafTwo {
+  position: relative;
+  padding-right: 5%;
+  left: 25%;
+}
+
+.codebase {
+  text-align: center;
+}
+
+.kwk {
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  bottom: 25pt;
+  margin: 0;
+}
+
+.face {
+  position: relative;
+  margin: 0;
+  right: 11%;
+  bottom: 147px;
+}
+
+.insta {
+  position: relative;
+  margin: 0;
+  right: 10%;
+  bottom: 150px;
+}
+
+.gmail {
+  position: relative;
+  margin: 0;
+  right: 6%;
+  bottom: 150px;
+}
+
+.linked {
+  position: relative;
+  margin: 0;
+  left: 9%;
+  bottom: 150px;
+}
+
+
+h4 {
+  font-family: 'Rouge Script', cursive;
+  font-size: 70px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  bottom: 130px;
+}
+
+.prof {
+  position: relative;
+  float: left;
+  padding-right: 5%;
+  left: 2%;
+  bottom: 90pt;
+
+}
+
+.nav-bar a {
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+  margin: 30px;
+  font-size: 15pt;
+  bottom: 150pt;
+  position: relative;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  position: relative;
+  padding-right: 5%;
+  bottom: 150px;
+}
+
+h3 {
+  font-family: 'Rouge Script', cursive;
+  font-size: 70px;
+  margin: 25px;
+}
